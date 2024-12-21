@@ -1,0 +1,15 @@
+[package]
+name = "flutter_editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.30.0"
+eframe = "0.30" 
+egui_extras = "0.30.0"
+syntect = { version = "4.5", optional = true }
+tokio = { version = "1", features = ["full"] }
+sysinfo = "0.24"
+procfs = "0.12"
+walkdir = "2.3" 
+rfd = "0.12"   # Agregar esta dependencia
